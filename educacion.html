@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+        <meta name="author" content="Javier Álvarez">
+        <meta name="keywords" content="hoja,vida,javier,alvarez">
+        <meta name="description" content="Hoja de Vida de Javier Álvarez">
+        
+        <title>Hoja de Vida Javier Álvarez</title>        
+        
+    </head>    
+    <body>
+        <header>
+            <svg width="280" height="130" xmlns="http://www.w3.org/2000/svg">
+                 <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+                 <g>
+                  <title>background</title>
+                  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+                  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                  </g>
+                 </g>
+                 <g>
+                  <title>Layer 1</title>
+                  <rect stroke="#000" id="svg_1" height="59" width="60.999999" y="46" x="69.5" stroke-width="1.5" fill="#33666C"/>
+                  <ellipse stroke="#000" ry="31" rx="39.000001" id="svg_2" cy="76" cx="127.500001" stroke-width="1.5" fill="#5B9BA2"/>
+                  <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_4" y="83" x="75.5" stroke-opacity="null" stroke-width="0" fill="#ffffff">JJAG</text>
+                 </g>
+            </svg>       
+            <h1>Hoja de Vida</h1>
+            <h2>Javier Jesús Álvarez Guerrero</h2>
+            <h3>Naciemiento 23/dic/1985 en Mexico, D.F.</h3>
+        </header>
+        
+        <navbar>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="educacion.html">Educación</a></li>
+                <li><a href="experincia.html">Experiencia</a></li>
+            </ul>
+            
+        </navbar>
+        
+        <section>
+            <h2>Educación</h2>
+            
+            <table border="1px">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institución</th>
+                        <th>Lugar</th>
+                        <th>¿Culminó?</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>2008</td>
+                        <td>Tecnológico de Estudios Superiores del Oriente del Estado de México</td>
+                        <td>Paraje San Isidro S/N</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>Teinux</td>
+                        <td>Av. Cuauhtemoc, CDMX</td>
+                        <td>Si</td>
+                    </tr>
+                </tbody>                
+            </table>
+           
+        </section>
+        
+        <section>
+            <h3>Agregar Educación</h3>
+            
+            <fieldset>
+                <legend>Captura de Datos:</legend>
+                <form autocomplete="on" name="n_DatosEducacion">
+                    <label for="i_anios"><strong>Año:</strong></label>
+                    <select name="n_anios" id="i_anios">
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                    </select>
+
+                    <br/><br/>
+
+                    <label for="i_institucion"><strong>Institución:</strong></label>
+                    <input type="text" placeholder="Nombre de la institución" name="n_institucion" id="i_institucion" required>
+
+                    <br/><br/>
+
+                    <label for="i_descripcion"><strong>Lugar:</strong></label>
+                    <textarea rows="5" cols="20" placeholder="Dirección" name="n_descripcion" id="i_descripcion" required></textarea>
+
+                    <br/><br/>
+
+                    <label><strong>¿Culminó?</strong></label>
+                    <label>Si</label><input type="radio" checked name="n_culm">
+                    <label>No</label><input type="radio" name="n_culm">
+
+                    <br/><br/>
+                    <input type="submit">
+
+                </form>
+            </fieldset>
+            
+        </section>
+        
+        <footer>
+            <strong>&#169;Derechos Reservados</strong>
+            <ul>
+                <li>Correo Electrónico: jjalvarez.guerrero@gmail.com</li>
+                <li>Teléfono: 044-55-6324-7896</li>
+                <li>Facebook:</li>
+            </ul>
+            
+        </footer>
+        
+    </body>
+</html>
